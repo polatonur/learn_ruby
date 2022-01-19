@@ -89,3 +89,6 @@ puts "remove last elemenent and return #{removed}"
 puts '----------20---------'
 new_arr = [99, 98, 97]
 [1, 2, 3, 4].concat(new_arr) # ==> [1,2,3,4,99,98,97]
+
+# .index
+[1, 2, 3, 4, 5, 6].index(5) #==> 4
