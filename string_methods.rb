@@ -1,8 +1,7 @@
-title = "onur"
+title = 'onur'
 
- 
 #👇 ==>"onur"
-title.downcase 
+title.downcase
 
 #👇 ==>"ONUR"
 title.upcase
@@ -17,34 +16,32 @@ title.length
 title.empty?
 
 #👇 ==>1
-title.index("n")
+title.index('n')
 
 #👇 ==>nil
-title.index("x")
+title.index('x')
 
 #👇 ==>0 first match
-"title".index(/t/)
+'title'.index(/t/)
 
 #👇 ==>name
-"title".replace("name")
+'title'.replace('name')
 
-'bar'[2] # => "r"
+'bar'[2]
 
+# => "r"
 #👇 ==> "oindeo"
-xindex.gsub("x",o)
+xindex.gsub('x', o)
 
 #👇 ==>to integer
-"10".to_i
+'10'.to_i
 
 #👇 ==>to floaf
-"3.14159".to_f  # => 3.14159
+'3.14159'.to_f # => 3.14159
 
 'foo'.match?(/o/) # => true
 
 'stressed'.reverse # => "desserts"
 
-
-
-
-
-
+# slice like method
+'onurpolat'[1..-2] #=>nurpolat
